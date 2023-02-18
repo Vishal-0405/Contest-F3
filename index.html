@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="menu-container">
+      <h1>Welcome to Railway App</h1>
+      <ul id="menu-list"></ul>
+    </div>
+    <button onclick="getMenu()">Menu</button>
+
+    <button onclick="takeOrder()">Place Order</button>
+    <div id="order-status">
+      <h1>Order Status</h1>
+      <p id="status-message"></p>
+    </div>
+
+    <button onclick="payOrder()">Pay Order</button>
+    <div id="payment-status">
+      <h1>Payment Status</h1>
+      <p id="payment-status-message"></p>
+    </div>
+
+    <button onclick="placeOrder()">Place Order</button>
+    <div id="menu"></div>
+    <div id="order"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
